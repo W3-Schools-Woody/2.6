@@ -6,10 +6,12 @@
 let root1, root2;
 
 // take input from the user
-let a = promot("Enter first number:");
-let b =  prompt("Enter second number:");
-let c = prompt("Enter third number:");
+//let a = promot("Enter first number:");
+//let b =  prompt("Enter second number:");
+//let c = prompt("Enter third number:");
 
+const qr = (a, b, c) => {
+    
 
 // calculate discriminant
 let discriminant = b * b - 4 * a * c;
@@ -21,8 +23,8 @@ if (discriminant > 0) {
 
     // result
     console.log(`The roots of quadratic equation are ${root1} and ${root2}`);
+    }
 };
-
 
 cited from:
 https://www.programiz.com/javascript/examples/quadratic-roots
